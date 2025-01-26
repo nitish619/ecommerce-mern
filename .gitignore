@@ -22,9 +22,10 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Ignore .env files in the client directory
+# Ignore .env files in the root directory
 .env
 
-# If you want to ignore .env files in the root folder as well
-../.env
+# Ignore .env files in the client directory
+client/.env
+
 
